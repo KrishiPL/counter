@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #ffffff; /* White background color */
+  }
+  
+  .button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px; /* Optional: adds rounded corners */
+    color: #000000; /* Black text color */
+    cursor: pointer; /* Changes cursor to a pointer on hover */
+  }
+  
+  .button-increase {
+    background-color: #add8e6; /* Light blue for Increase button */
+  }
+  
+  .button-decrease {
+    background-color: #f08080; /* Medium red for Decrease button */
+  }
+  
+  .button-reset {
+    background-color: #90ee90; /* Light green for Reset button */
+  }
+  
+  .button-increase:hover {
+    background-color: #87ceeb; /* Slightly darker blue for hover effect */
+  }
+  
+  .button-decrease:hover {
+    background-color: #e57373; /* Slightly darker red for hover effect */
+  }
+  
+  .button-reset:hover {
+    background-color: #77dd77; /* Slightly darker green for hover effect */
+  }
+  
+  .counter {
+    font-size: 24px;
+    margin: 20px;
+    color: #000000; /* Black color for the counter heading */
+  }
+  
+  #counterValue {
+    color: #000000; /* Black color for the counter value */
+  }
+  
